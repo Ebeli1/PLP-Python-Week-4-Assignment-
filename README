@@ -1,0 +1,117 @@
+File Read & Write with Error Handling
+📌 Project Overview
+
+This project demonstrates file handling and error handling in Python.
+The program creates a text file, reads its contents, processes the data, and writes a modified version to a new file while safely handling possible errors.
+
+This assignment helps reinforce key Python concepts such as:
+
+File creation
+
+File reading and writing
+
+String manipulation
+
+Exception handling
+
+🎯 Objectives
+
+The main objectives of this program are to:
+
+Create a text file and write data into it
+
+Read text data from a file
+
+Modify the file content (convert to uppercase)
+
+Count the total number of words in the file
+
+Write the processed content and word count to a new file
+
+Handle errors gracefully if issues occur
+
+🛠️ Program Features
+
+Automatically creates an input.txt file with sample text
+
+Prompts the user to enter a filename to read
+
+Converts file content to uppercase
+
+Counts the total number of words
+
+Writes the processed content to output.txt
+
+Displays meaningful error messages for common file issues
+
+📂 Files Used
+File Name	Description
+input.txt	Input file created by the program
+output.txt	Output file containing modified text and word count
+index.py	Python script containing the program logic
+
+How the Program Works (Step-by-Step)
+Step 1: Create the Input File
+
+The program first creates a file named input.txt and writes at least five lines of text into it.
+This ensures the file exists before attempting to read it.
+
+Step 2: User Input
+
+The user is asked to enter the name of the file to read (e.g., input.txt).
+
+Step 3: File Reading
+
+The program attempts to open and read the specified file.
+
+Step 4: Data Processing
+
+All text is converted to uppercase
+
+The total number of words is calculated using Python’s split() method
+
+Step 5: Write to Output File
+
+The processed text and word count are written to a new file called output.txt.
+
+Step 6: Success Message
+
+If everything works correctly, the program prints a confirmation message indicating successful file processing.
+
+Error Handling
+
+The program includes exception handling to manage common errors:
+
+Error Type	Description
+FileNotFoundError	Triggered if the file does not exist
+PermissionError	Triggered if the file cannot be accessed
+Exception	Catches any unexpected errors
+This prevents the program from crashing and provides user-friendly feedback.
+
+📋 Requirements
+
+Python 3.x installed
+
+Basic knowledge of file handling in Python
+
+Ability to run Python scripts from a terminal or IDE
+
+📚 Concepts Demonstrated
+
+File creation (open() with write mode)
+
+File reading (open() with read mode)
+
+String manipulation
+
+Word counting
+
+Try–except error handling
+
+Clean and readable code documentation
+
+✍️ Author
+
+Ebeli Egberipou
+Topic: File Handling & Error Handling
+
